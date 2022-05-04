@@ -2,11 +2,8 @@
   "name": "bugfinder",
   "version": "1.0.0",
   "description": "Do you not understand how google works? Would you rather bother people around you? With this application, your computer can google things for you so you don't have to ask around for that simple mistake your compiler is already warning you about!",
-  "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "bin/index.js",
   "author": "Ogi28",
   "license": "MIT",
   "bin": {
