@@ -1,18 +1,23 @@
 {
-  "name": "bugfinder",
-  "version": "1.0.0",
-  "description": "Do you not understand how google works? Would you rather bother people around you? With this application, your computer can google things for you so you don't have to ask around for that simple mistake your compiler is already warning you about!",
-  "main": "index.js",
-  "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Ogi28",
-  "license": "MIT",
-  "bin": {
-    "bugfinder": "./bin/index.js"
-  },
-  "dependencies": {
-    "yargs": "^17.4.1"
-  }
+   "name": "bugfinder",
+   "version": "1.0.0",
+   "description": "Do you not understand how google works? Would you rather bother people around you? With this application, your computer can google things for you so you don't have to ask around for that simple mistake your compiler is already warning you about!",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "ts-node bin/index.ts",
+      "dev": "nodemon bin/index.ts"
+   },
+   "author": "Ogi28",
+   "license": "MIT",
+   "bin": {
+      "bugfinder": "./bin/index.js"
+   },
+   "dependencies": {
+      "yargs": "^17.4.1"
+   },
+   "devDependencies": {
+      "@types/node": "^17.0.31",
+      "@types/yargs": "^17.0.10"
+   }
 }
